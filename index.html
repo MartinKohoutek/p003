@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+   <!--
+      ZOO Kalendar akci
+      Author: Martin Kohoutek
+      Date:   10.4.2021
+
+      Filename:   index.html
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>ZOO Veltruby</title>
+   <link href="css/reset.css" rel="stylesheet" />
+   <link href="css/styles.css" rel="stylesheet" />  
+</head>
+
+<body>
+   <header>
+      <img src="images/photo1.jpg" alt="ZOO Veltruby" id="logoimg" />
+      <nav> <a id="navicon" href="#"><img src="images/navicon.png" alt="" /></a>
+         <ul>
+            <li><a href="#">Domů</a></li>
+            <li><a href="#">Informace</a></li>
+            <li><a href="#">Kalendář akcí</a></li>
+            <li><a href="#">Ceník</a></li>
+            <li><a href="#">Objednávky</a></li>
+            <li><a href="#">Kontakt</a></li>
+         </ul>
+      </nav>
+   </header>
+   
+   <article>
+      <h1>ZOO Veltruby: Kalendář akcí</h1>
+      <p>Červnová nabídka akcí v ZOO Veltruby je opravdu přebohatá, takže si na své přijde opravdu každý. Pro nejmenší návštěvníky máme připravené dětské programy, které se konají pravidelně každou sobotu za jakéhokoliv počasí. Tentokrát se můžete těšit například na <em>Putování Amerikou</em> s bohatým doprovodným programem nebo <em>Tajemnou Afriku</em> plnou soutěží o hodnotné ceny.</p>
+      <p>Pokud máte rádi dobrodružství, můžete se přijít podívat na tradiční a velmi oblíbené <em>Noční prohlídky</em>, kdy můžete navštívit vybrané pavilony a zahlédnout noční život mnoha zvířat. Máte-li dost odvahy, můžete navštívit i nově opravený <em>pavilon plazů</em> za tmy!</p>
+      <p>Pokud patříte mezi zvídavé návštěvníky, můžete se zůčastnit <em>Komentovaných prohlídek ZOO</em>. Jako průvodci Vám budou k dispozici naši přední zoologové, takže se můžete těšit na spoustu zajímavých informací o životě v divočině. </p>
+      <p>Mezi tradičně nejpopulárnější akce pořádané naší ZOO patří i <em>Krmení dravých šelem</em> nebo <em>Krmení lachtanů</em>. Můžete též navšívit oblíbené Přednášky cestovatelů, tentokrát jsme si pro Vás připravili vyprávění o <em>Amazonských deštných pralesech</em> v Bolívii a Ekvádoru nebo přednášku <em>Křížem krážem Tajemnou Saharou</em>.</p>
+      <p>Doporučujeme Vám navštívit i naši výtečnou restauraci, kde můžete ochutnat nejrůznější exotické pokrmy ze všech koutů světa. Těšíme se na Vás v naší ZOO Veltruby!</p>      
+   </article>
+   
+   <table id="calendar">
+      <caption>Kalendář akcí: Červen 2021</caption>
+      <colgroup>
+         <col class="weekdays" span="5">
+         <col class="weekends" span="2">
+      </colgroup>
+      <thead>
+         <tr>
+            <th>Pondělí</th>
+            <th>Úterý</th>
+            <th>Středa</th>
+            <th>Čtvrtek</th>
+            <th>Pátek</th>
+            <th>Sobota</th>
+            <th>Neděle</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td data-date="PO, 31. května 2021">
+               <h1>31. května</h1>
+               <dl>
+                  <dt>Přednáška Borneo</dt>
+                  <dd>17:00 - 18:00</dd>
+                  <dd>100 Kč/50 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="UT, 1. června 2021">
+               <h1>1. června</h1>
+               <dl>
+                  <dt>Krmení plazů</dt>
+                  <dd>15:00 - 15:30</dd>
+                  <dd>120 Kč/60 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="ST, 2. června 2021">
+               <h1>2. června</h1>               
+            </td>
+            <td data-date="CT, 3. června 2021">
+               <h1>3. června</h1>
+            </td>
+            <td data-date="PA, 4. června 2021">
+               <h1>4. června</h1>  
+               <dl>
+                  <dt>Noční prohlídka ZOO</dt>
+                  <dd>21:00 - 23:00</dd>
+                  <dd>160 Kč/80 Kč</dd>
+               </dl>             
+            </td>
+            <td data-date="SO, 5. června 2021">
+               <h1>5. června</h1>
+               <dl>
+                  <dt>Putování Amerikou</dt>
+                  <dd>12:00 - 17:00</dd>
+                  <dd>240 Kč/120 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="Ne, 6. června 2021">
+               <h1>6. června</h1>
+               <dl>
+                  <dt>Komentovaná prohlídka</dt>
+                  <dd>14:00 - 16:00</dd>
+                  <dd>180 Kč/90 Kč</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td data-date="PO, 7. června 2021">
+               <h1>7. června</h1>
+               <dl>
+                  <dt>Přednáška Egypt</dt>
+                  <dd>17:00 - 18:00</dd>
+                  <dd>100 Kč/50 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="UT, 8. června 2021">
+               <h1>8. června</h1>               
+            </td>
+            <td data-date="ST, 9. června 2021">
+               <h1>9. června</h1>
+               <dl>
+                  <dt>Krmení tygrů</dt>
+                  <dd>15:00 - 15:30</dd>
+                  <dd>120 Kč/60 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="CT, 10. června 2021">
+               <h1>10. června</h1>               
+            </td>
+            <td data-date="PA, 11. června 2021">
+               <h1>11. června</h1>
+               <dl>
+                  <dt>Noční prohlídka ZOO</dt>
+                  <dd>21:00 - 23:00</dd>
+                  <dd>160 Kč/80 Kč</dd>
+               </dl> 
+            </td>
+            <td data-date="SO, 12. června 2021">
+               <h1>12. června</h1>
+               <dl>
+                  <dt>Tajemnou Afrikou</dt>
+                  <dd>12:00 - 17:00</dd>
+                  <dd>240 Kč/120 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="NE, 13. června 2021">
+               <h1>13. června</h1>
+               <dl>
+                  <dt>Komentovaná prohlídka</dt>
+                  <dd>14:00 - 16:00</dd>
+                  <dd>180 Kč/90 Kč</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td data-date="PO, 14. června 2021">
+               <h1>14. června</h1>
+               <dl>
+                  <dt>Přednáška Amazonie</dt>
+                  <dd>17:00 - 18:00</dd>
+                  <dd>100 Kč/50 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="UT, 15. června 2021">
+               <h1>15. června</h1>
+            </td>
+            <td data-date="ST, 16. června 2021">
+               <h1>16. června</h1>               
+            </td>
+            <td data-date="CT, 17. června 2021">
+               <h1>17. června</h1>
+               <dl>
+                  <dt>Krmení lachtanů</dt>
+                  <dd>15:00 - 15:30</dd>
+                  <dd>120 Kč/60 Kč</dd>
+               </dl></td>
+            <td data-date="PA, 18. června 2021">
+               <h1>18. června</h1>  
+               <dl>
+                  <dt>Noční prohlídka ZOO</dt>
+                  <dd>21:00 - 23:00</dd>
+                  <dd>160 Kč/80 Kč</dd>
+               </dl>              
+            </td>
+            <td data-date="SO, 19. června 2021">
+               <h1>19. června</h1>
+               <dl>
+                  <dt>Putování Amerikou</dt>
+                  <dd>12:00 - 17:00</dd>
+                  <dd>240 Kč/120 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="NE, 20. června 2021">
+               <h1>20. června</h1>
+               <dl>
+                  <dt>Komentovaná prohlídka</dt>
+                  <dd>14:00 - 16:00</dd>
+                  <dd>180 Kč/90 Kč</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td data-date="PO, 21. června 2021">
+               <h1>21. června</h1>
+               <dl>
+                  <dt>Přednáška Etiopie</dt>
+                  <dd>17:00 - 18:00</dd>
+                  <dd>100 Kč/50 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="UT, 22. června 2021">
+               <h1>22. června</h1>               
+            </td>
+            <td data-date="ST, 23. června 2021">
+               <h1>23. června</h1>               
+            </td>
+            <td data-date="CT, 24. června 2021">
+               <h1>24. června</h1>
+               <dl>
+                  <dt>Krmení slonů</dt>
+                  <dd>15:00 - 15:30</dd>
+                  <dd>120 Kč/60 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="PA, 25. června 2021">
+               <h1>25. června</h1>  
+               <dl>
+                  <dt>Noční prohlídka ZOO</dt>
+                  <dd>21:00 - 23:00</dd>
+                  <dd>160 Kč/80 Kč</dd>
+               </dl>              
+            </td>
+            <td data-date="SO, 26. června 2021">
+               <h1>26. června</h1>
+               <dl>
+                  <dt>Tajemnou Afrikou</dt>
+                  <dd>12:00 - 17:00</dd>
+                  <dd>240 Kč/120 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="NE, 27. června 2021">
+               <h1>27. června</h1>
+               <dl>
+                  <dt>Komentovaná prohlídka</dt>
+                  <dd>14:00 - 16:00</dd>
+                  <dd>180 Kč/90 Kč</dd>
+               </dl>
+            </td>
+         </tr>
+         <tr>
+            <td data-date="PO, 28. června 2021">
+               <h1>28. června</h1>
+               <dl>
+                  <dt>Přednáška Thajsko</dt>
+                  <dd>17:00 - 18:00</dd>
+                  <dd>100 Kč/50 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="UT, 29. června 2021">
+               <h1>29. června</h1>               
+            </td>
+            <td data-date="ST, 30. června 2021">
+               <h1>30. června</h1>               
+               <dl>
+                  <dt>Krmení šelem</dt>
+                  <dd>15:00-16:00</dd>
+                  <dd>200 Kč/100 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="CT, 1. července 2021">
+               <h1>1. července</h1>
+            </td>
+            <td data-date="PA, 2. července 2021">
+               <h1>2. července</h1>
+               <dl>
+                  <dt>Noční prohlídka ZOO</dt>
+                  <dd>21:00 - 23:00</dd>
+                  <dd>160 Kč/80 Kč</dd>
+               </dl> 
+            </td>
+            <td data-date="SO, 3. července 2021">
+               <h1>3. července</h1>
+               <dl>
+                  <dt>Za tučňáky z Madagaskaru</dt>
+                  <dd>12:00 - 17:00</dd>
+                  <dd>240 Kč/120 Kč</dd>
+               </dl>
+            </td>
+            <td data-date="NE, 4. července 2021">
+               <h1>4. července</h1>
+               <dl>
+                  <dt>Komentovaná prohlídka</dt>
+                  <dd>14:00 - 16:00</dd>
+                  <dd>180 Kč/90 Kč</dd>
+               </dl>
+            </td>
+         </tr>
+      </tbody>
+   </table>
+      
+   <footer>
+      <nav>
+         <ul>
+            <li><a href="#">Otevírací doba</a></li>
+            <li><a href="#">Kudy k nám</a></li>
+            <li><a href="#">Parkování</a></li>
+         </ul>
+         <ul>
+            <li><a href="#">Domů</a></li>
+            <li><a href="#">Informace</a></li>
+            <li><a href="#">Ceník</a></li>
+            <li><a href="#">Objednávky</a></li>
+            <li><a href="#">Kontakt</a></li>
+         </ul>   
+         <ul>
+            <li><a href="#">Adopce zvířat</a></li>
+            <li><a href="#">Dobrovolnictví</a></li>
+            <li><a href="#">Dary</a></li>
+            <li><a href="#">Poukazy</a></li>
+            <li><a href="#">Partnerství</a></li>
+         </ul>            
+      </nav>
+      <section>
+         ZOO Veltruby<br />
+         Zahradní 258<br />
+         Veltruby, 280 02<br /><br />
+         Informace: 7A7 456 356<br />
+         E-mail: informace@zooveltruby.cz
+      </section>      
+   </footer>
+      
+</body>
+</html>
